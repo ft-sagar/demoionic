@@ -79,10 +79,7 @@ export class PhotoService {
       source: CameraSource.Camera,
       quality: 100,
     });
-    this.photos.unshift({
-      filepath: "soon...",
-      webviewPath: capturedPhoto.webPath,
-    });
+  
     const savedImageFile = await this.savePicture(capturedPhoto);
     this.photos.unshift(savedImageFile);
     Storage.set({
