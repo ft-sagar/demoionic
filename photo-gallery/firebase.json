@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "samwebapps",
     "public": "www",
     "ignore": [
       "firebase.json",

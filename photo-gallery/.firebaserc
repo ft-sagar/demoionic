@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "causal-sunspot-268907"
+    "default": "causal-sunspot-268907",
+    "samsproject": "samsproject-675e1"
   }
 }
